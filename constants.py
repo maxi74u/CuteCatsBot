@@ -5,10 +5,10 @@ TELEGRAM_TOKEN = os.environ['TELEGRAM_TOKEN']
 
 # catsapi key
 CAT_API_KEY = os.environ['CAT_API_KEY']
-# the url I use to make get request for imgs
+# the url I use to send get requests for imgs
 CAT_API_URL = 'https://api.thecatapi.com/v1/images/search'
 
-# the url used to make get requests for facts
+# the url used to send get requests for facts
 MEOW_API_URL = "https://meowfacts.herokuapp.com/"
 
 #the Description for the bot, presented with /start
