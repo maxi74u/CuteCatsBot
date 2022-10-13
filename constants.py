@@ -28,3 +28,6 @@ LIST = '''
 /img => get cat pic.
 /fact => get a cat fact.
 '''
+
+# the poll rate in seconds
+POLL_RATE=30
