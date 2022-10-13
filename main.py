@@ -28,7 +28,7 @@ if __name__ == "__main__":
     # if an invalid command is sent, meow 😼
     
     # start running 🏃‍♂️
-    updater.start_polling(5)
+    updater.start_polling(POLL_RATE)
     # continue running 🌚
     updater.idle() 
     # pray it works
